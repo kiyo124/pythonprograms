@@ -5,4 +5,4 @@ def fact(b):
     else:
         return b*(fact(b-1))
 fa=fact(a)
-print("factorial of number is: ",fa)
+print("factorial of ",a," is: ",fa)
